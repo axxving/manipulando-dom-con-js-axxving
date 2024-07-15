@@ -27,7 +27,7 @@ form {
 }
 
 .mainCard {
-  width: 40vw;
+  min-width: 40vw;
   border-radius: 25px;
   background-color: #fff;
   padding: 25px;
@@ -124,4 +124,44 @@ form {
 
 .noTasks {
   font-size: 48px;
+}
+
+/* Pequeño (sm) */
+@media (min-width: 46px) {
+  .mainCard {
+    min-width: 80%;
+    /* background-color: blue; */
+  }
+}
+
+/* Mediano (md) */
+@media (min-width: 768px) {
+  .mainCard {
+    .mainCard {
+      min-width: 80%;
+      /* background-color: blue; */
+    }
+  }
+}
+
+/* Grande (lg) */
+@media (min-width: 992px) {
+  .mainCard {
+    min-width: 40vw;
+    /*background-color: orange;*/
+  }
+}
+
+/* Extra grande (xl) */
+@media (min-width: 1200px) {
+  h2 {
+    color: red;
+  }
+}
+
+/* Extra extra grande (xxl) */
+@media (min-width: 1400px) {
+  h2 {
+    color: purple;
+  }
 }
