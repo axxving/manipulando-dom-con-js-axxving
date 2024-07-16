@@ -89,6 +89,13 @@ form {
   position: relative;
 }
 
+.content-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .task {
   padding: 10px;
 }
